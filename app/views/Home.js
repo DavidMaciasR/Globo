@@ -10,7 +10,7 @@ export class Home extends React.Component {
 
     return (
       <View style={styles.container}>
-        <Header message="Press to login"></Header>
+        <Header navigate={navigate} message="Press to login"></Header>
         <Hero />
         <Menu navigate={navigate} />
       </View>

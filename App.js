@@ -3,9 +3,10 @@ import { Contact } from './app/views/Contact';
 import { Home } from './app/views/Home';
 import { Video } from './app/views/Video';
 
-
 import { StackNavigator } from 'react-navigation';
 import { VideoDetail } from './app/views/VideoDetail';
+import { Register } from './app/views/Register';
+import { Login } from './app/views/Login';
 
 const MyRoutes = StackNavigator({
   HomeRT: {
@@ -19,6 +20,12 @@ const MyRoutes = StackNavigator({
   },
   VideoDetailRT: {
     screen: VideoDetail
+  },
+  RegistrationRT: {
+    screen: Register
+  },
+  LoginRT: {
+    screen: Login
   }
 });
 
